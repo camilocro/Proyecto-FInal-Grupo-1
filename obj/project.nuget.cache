@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NdwLKbvquWo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACIÓN\\Proyecto FInal Grupo 1\\Proyecto FInal Grupo 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Camilo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "C:\\Users\\Camilo\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
