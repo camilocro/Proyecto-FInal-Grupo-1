@@ -94,7 +94,7 @@ if (string.IsNullOrEmpty(connectionString))
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseNpgsql(connectionString));
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITeamCarRepository, TeamCarRepository>();
 builder.Services.AddScoped<ITeamCarService, TeamCarService>();
 
