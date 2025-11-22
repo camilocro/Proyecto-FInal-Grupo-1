@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -139,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -182,21 +186,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-22T15:55:23.478Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -207,7 +198,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T22:11:08.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-22T15:55:23.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -215,12 +232,11 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-22T15:52:24.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:52:24.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SponsorService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\SponsorService.cs",
               "RelativeDocumentMoniker": "Services\\SponsorService.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ISponsorService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ISponsorService.cs",
               "RelativeDocumentMoniker": "Services\\ISponsorService.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TeamCarService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\TeamCarService.cs",
               "RelativeDocumentMoniker": "Services\\TeamCarService.cs",
@@ -256,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ITeamCarService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ITeamCarService.cs",
               "RelativeDocumentMoniker": "Services\\ITeamCarService.cs",
@@ -268,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DriverService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\DriverService.cs",
               "RelativeDocumentMoniker": "Services\\DriverService.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IDriverService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IDriverService.cs",
               "RelativeDocumentMoniker": "Services\\IDriverService.cs",
@@ -292,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
@@ -304,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "Services\\IAuthService.cs",
@@ -316,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SponsorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\SponsorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\SponsorRepository.cs",
@@ -328,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ISponsorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ISponsorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ISponsorRepository.cs",
@@ -340,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "TeamCarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\TeamCarRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\TeamCarRepository.cs",
@@ -352,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ITeamCarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ITeamCarRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ITeamCarRepository.cs",
@@ -364,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DriverRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\DriverRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\DriverRepository.cs",
@@ -376,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IDriverRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IDriverRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IDriverRepository.cs",
@@ -388,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -400,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
@@ -412,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SponsorResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\SponsorResponseDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\SponsorResponseDto.cs",
@@ -424,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "UpdateSponsorDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateSponsorDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\UpdateSponsorDto.cs",
@@ -436,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CreateSponsorDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateSponsorDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\CreateSponsorDto.cs",
@@ -448,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "TeamCarResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\TeamCarResponseDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\TeamCarResponseDto.cs",
@@ -460,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "UpdateTeamCarDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateTeamCarDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\UpdateTeamCarDto.cs",
@@ -472,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CreateTeamCarDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateTeamCarDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\CreateTeamCarDto.cs",
@@ -484,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "DriverResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\DriverResponseDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\DriverResponseDto.cs",
@@ -496,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "UpdateDriverDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateDriverDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\UpdateDriverDto.cs",
@@ -508,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "CreateDriverDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateDriverDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\CreateDriverDto.cs",
@@ -520,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UserDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\UserDto.cs",
@@ -532,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\RegisterDto.cs",
@@ -544,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\LoginResponseDto.cs",
@@ -556,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOS\\LoginDto.cs",
@@ -568,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "CarSponsor.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\CarSponsor.cs",
               "RelativeDocumentMoniker": "Models\\CarSponsor.cs",
@@ -580,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Sponsor.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Sponsor.cs",
               "RelativeDocumentMoniker": "Models\\Sponsor.cs",
@@ -592,19 +608,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 1,
               "Title": "TeamCar.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\TeamCar.cs",
               "RelativeDocumentMoniker": "Models\\TeamCar.cs",
               "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\TeamCar.cs",
               "RelativeToolTip": "Models\\TeamCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:39:07.836Z"
+              "WhenOpened": "2025-11-22T15:39:07.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Driver.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Driver.cs",
               "RelativeDocumentMoniker": "Models\\Driver.cs",
@@ -616,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -628,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Proyecto FInal Grupo 1.csproj",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Proyecto FInal Grupo 1.csproj",
               "RelativeDocumentMoniker": "Proyecto FInal Grupo 1.csproj",
@@ -636,12 +653,11 @@
               "RelativeToolTip": "Proyecto FInal Grupo 1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-22T15:37:12.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:37:12.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "SponsorController.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\SponsorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SponsorController.cs",
@@ -653,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "TeamCarController.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\TeamCarController.cs",
               "RelativeDocumentMoniker": "Controllers\\TeamCarController.cs",
@@ -665,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "DriverController.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\DriverController.cs",
               "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
@@ -677,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -689,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -701,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.env",
               "RelativeDocumentMoniker": ".env",
