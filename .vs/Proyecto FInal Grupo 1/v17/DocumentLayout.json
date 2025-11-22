@@ -1,7 +1,180 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\proyecto final grupo 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:proyecto final grupo 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\sponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\sponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\isponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\isponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\teamcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\teamcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\iteamcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\iteamcarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\sponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\sponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\isponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\isponsorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\teamcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\teamcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\iteamcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\iteamcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\sponsorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\sponsorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\updatesponsordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\updatesponsordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\createsponsordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\createsponsordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\teamcarresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\teamcarresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\updateteamcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\updateteamcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\createteamcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\createteamcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\driverresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\driverresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\updatedriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\updatedriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\createdriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\createdriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\carsponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\carsponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\teamcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\controllers\\teamcarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:controllers\\teamcarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|c:\\users\\camilo\\documentos ucb\\programaci\u00F3n\\proyecto final grupo 1\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F744FCC-C157-4567-82CB-80B54AD8EC64}|Proyecto FInal Grupo 1.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +182,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-22T15:55:23.478Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -18,6 +204,512 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-22T15:52:24.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SponsorService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\SponsorService.cs",
+              "RelativeDocumentMoniker": "Services\\SponsorService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\SponsorService.cs",
+              "RelativeToolTip": "Services\\SponsorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:51:10.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISponsorService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ISponsorService.cs",
+              "RelativeDocumentMoniker": "Services\\ISponsorService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ISponsorService.cs",
+              "RelativeToolTip": "Services\\ISponsorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:50:56.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamCarService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\TeamCarService.cs",
+              "RelativeDocumentMoniker": "Services\\TeamCarService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\TeamCarService.cs",
+              "RelativeToolTip": "Services\\TeamCarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:50:41.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITeamCarService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ITeamCarService.cs",
+              "RelativeDocumentMoniker": "Services\\ITeamCarService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\ITeamCarService.cs",
+              "RelativeToolTip": "Services\\ITeamCarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:50:25.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DriverService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\DriverService.cs",
+              "RelativeDocumentMoniker": "Services\\DriverService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\DriverService.cs",
+              "RelativeToolTip": "Services\\DriverService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:49:48.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDriverService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IDriverService.cs",
+              "RelativeDocumentMoniker": "Services\\IDriverService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IDriverService.cs",
+              "RelativeToolTip": "Services\\IDriverService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:49:30.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:49:17.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:48:54.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SponsorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\SponsorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SponsorRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\SponsorRepository.cs",
+              "RelativeToolTip": "Repositories\\SponsorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:48:22.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISponsorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ISponsorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ISponsorRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ISponsorRepository.cs",
+              "RelativeToolTip": "Repositories\\ISponsorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:48:08.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TeamCarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\TeamCarRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TeamCarRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\TeamCarRepository.cs",
+              "RelativeToolTip": "Repositories\\TeamCarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:47:54.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITeamCarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ITeamCarRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITeamCarRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\ITeamCarRepository.cs",
+              "RelativeToolTip": "Repositories\\ITeamCarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:47:22.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\DriverRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DriverRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\DriverRepository.cs",
+              "RelativeToolTip": "Repositories\\DriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:47:03.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDriverRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IDriverRepository.cs",
+              "RelativeToolTip": "Repositories\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:46:51.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:46:38.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:46:27.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SponsorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\SponsorResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\SponsorResponseDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\SponsorResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\SponsorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:45:55.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateSponsorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateSponsorDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\UpdateSponsorDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateSponsorDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\UpdateSponsorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:45:39.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateSponsorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateSponsorDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\CreateSponsorDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateSponsorDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\CreateSponsorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:45:11.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TeamCarResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\TeamCarResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\TeamCarResponseDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\TeamCarResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\TeamCarResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:44:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateTeamCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateTeamCarDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\UpdateTeamCarDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateTeamCarDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\UpdateTeamCarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:44:28.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateTeamCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateTeamCarDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\CreateTeamCarDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateTeamCarDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\CreateTeamCarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:44:13.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DriverResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\DriverResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\DriverResponseDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\DriverResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\DriverResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:43:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateDriverDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateDriverDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\UpdateDriverDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UpdateDriverDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\UpdateDriverDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:43:41.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateDriverDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateDriverDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\CreateDriverDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\CreateDriverDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\CreateDriverDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:43:27.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\UserDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:41:21.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\RegisterDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:40:51.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:40:39.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\DTOS\\LoginDto.cs",
+              "RelativeToolTip": "Models\\DTOS\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:40:24.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CarSponsor.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\CarSponsor.cs",
+              "RelativeDocumentMoniker": "Models\\CarSponsor.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\CarSponsor.cs",
+              "RelativeToolTip": "Models\\CarSponsor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:39:53.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Sponsor.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Sponsor.cs",
+              "RelativeDocumentMoniker": "Models\\Sponsor.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Sponsor.cs",
+              "RelativeToolTip": "Models\\Sponsor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:39:23.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TeamCar.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\TeamCar.cs",
+              "RelativeDocumentMoniker": "Models\\TeamCar.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\TeamCar.cs",
+              "RelativeToolTip": "Models\\TeamCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:39:07.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\Driver.cs",
+              "RelativeToolTip": "Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:38:56.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:38:43.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proyecto FInal Grupo 1.csproj",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Proyecto FInal Grupo 1.csproj",
+              "RelativeDocumentMoniker": "Proyecto FInal Grupo 1.csproj",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Proyecto FInal Grupo 1.csproj",
+              "RelativeToolTip": "Proyecto FInal Grupo 1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T15:37:12.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SponsorController.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\SponsorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SponsorController.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\SponsorController.cs",
+              "RelativeToolTip": "Controllers\\SponsorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:37:05.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TeamCarController.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\TeamCarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamCarController.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\TeamCarController.cs",
+              "RelativeToolTip": "Controllers\\TeamCarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:36:53.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\DriverController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\DriverController.cs",
+              "RelativeToolTip": "Controllers\\DriverController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:36:38.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:36:20.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-22T15:35:41.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\Camilo\\Documentos UCB\\PROGRAMACI\u00D3N\\Proyecto FInal Grupo 1\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-22T15:35:11.539Z"
             }
           ]
         }
