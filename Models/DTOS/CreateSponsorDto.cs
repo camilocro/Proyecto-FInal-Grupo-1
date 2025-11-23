@@ -2,5 +2,8 @@
 {
     public class CreateSponsorDto
     {
+        public string Name { get; set; }
+        public string Industry { get; set; }
+        public decimal Amount { get; set; }
     }
 }
