@@ -97,6 +97,8 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 //builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITeamCarRepository, TeamCarRepository>();
 builder.Services.AddScoped<ITeamCarService, TeamCarService>();
+builder.Services.AddScoped<ICarSponsorRepository, CarSponsorRepository>();
+builder.Services.AddScoped<ICarSponsorService, CarSponsorService>();
 
 
 var app = builder.Build();
