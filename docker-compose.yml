@@ -1,6 +1,32 @@
-﻿namespace Proyecto_FInal_Grupo_1
-{
-    public class docker_compose
-    {
-    }
-}
+﻿services:
+  api:
+    image: proyecto-final-grupo-1-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_DB=formula1db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=supersecret
+      - JWT_KEY=EstaEsUnaClaveSuperSecretaYLoSuficientementeLargaParaQueFuncioneElJWT123!
+      - JWT_ISSUER=FormulaOneApi
+      - JWT_AUDIENCE=FormulaOneClient
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=formula1db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=supersecret
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
