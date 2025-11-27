@@ -28,7 +28,7 @@ namespace Proyecto_FInal_Grupo_1.Services
             });
         }
 
-        public async Task<DriverResponseDto> GetOne(Guid id)
+        public async Task<DriverResponseDto?> GetOne(Guid id)
         {
             var driver = await _repo.GetOne(id);
             if (driver == null) return null;
@@ -41,7 +41,7 @@ namespace Proyecto_FInal_Grupo_1.Services
                 Number = driver.Number,
                 Nationality = driver.Nationality,
                 TeamCarId = driver.TeamCarId,
-                SponsorId = driver.SponsorId
+                SponsorId = driver.SponsorId  
             };
         }
 
