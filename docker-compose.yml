@@ -28,7 +28,7 @@
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: supersecret
     ports:
-      - "5433:5432" # Puerto externo 5433
+      - "5432:5432" # Puerto externo 5433
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
