@@ -48,8 +48,16 @@ namespace Proyecto_FInal_Grupo_1.Controllers
             }
             catch (Exception ex)
             {
+                // --- CAMBIO PARA DEPURACIÓN ---
+                // Aquí imprimimos el error real para verlo en Swagger
+                var errorMessage = $"ERROR REAL: {ex.Message}";
+                if (ex.InnerException != null)
+                {
+                    errorMessage += $" | INNER: {ex.InnerException.Message}";
+                }
+
                 _logger.LogError(ex, "Error en registro");
-                return StatusCode(500, "Error interno del servidor");
+                return StatusCode(500, errorMessage);
             }
         }
 
