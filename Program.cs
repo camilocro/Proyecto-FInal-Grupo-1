@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-//using Microsoft.OpenApi.Models; // Necesario para configurar Swagger Auth
+using Microsoft.OpenApi;
+// ?? ESTA ES LA LÍNEA QUE TE FALTABA PARA ARREGLAR LOS ERRORES ROJOS
+using Microsoft.OpenApi.Models;
 using Proyecto_FInal_Grupo_1.Data;
 using Proyecto_FInal_Grupo_1.Repositories;
 using Proyecto_FInal_Grupo_1.Services;
@@ -14,27 +16,29 @@ using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 1. Cargar variables de entorno (.env)
 Env.Load();
 
-// Kestrel Config
-var port = Environment.GetEnvironmentVariable("PORT");
-builder.WebHost.ConfigureKestrel(options =>
+// 2. Configurar Kestrel para Docker (Escuchar en puerto 8080)
+builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    options.ListenAnyIP(int.Parse(port ?? "8080"));
+    serverOptions.ListenAnyIP(8080);
 });
 
+// 3. Configurar Controladores y JSON (Evitar ciclos infinitos)
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     });
 
-// --- SWAGGER CON JWT ---
+// 4. Configuración de Swagger con JWT (Pantalla Visual)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Formula 1 API", Version = "v1" });
 
+    // Configuración del botón "Authorize" (Candado)
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
@@ -59,8 +63,8 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
-// -----------------------
 
+// 5. Rate Limiting
 builder.Services.AddRateLimiter(options =>
 {
     options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
@@ -73,6 +77,7 @@ builder.Services.AddRateLimiter(options =>
     });
 });
 
+// 6. CORS
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("AllowAll", p => p
@@ -81,9 +86,11 @@ builder.Services.AddCors(opt =>
         .AllowAnyMethod());
 });
 
+// 7. Autenticación JWT
 var jwtKey = Environment.GetEnvironmentVariable("JWT_KEY");
 var jwtIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER");
 var jwtAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE");
+
 var keyBytes = Encoding.UTF8.GetBytes(jwtKey ?? "ClaveSecretaSuperSeguraParaDesarrollo12345!");
 
 builder.Services
@@ -109,7 +116,10 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("AdminOnly", p => p.RequireRole("Admin"));
 });
 
+// 8. Base de Datos
 var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+
+// Fallback para desarrollo local si no viene la cadena completa
 if (string.IsNullOrEmpty(connectionString))
 {
     var dbName = Environment.GetEnvironmentVariable("POSTGRES_DB") ?? "formula1db";
@@ -117,12 +127,14 @@ if (string.IsNullOrEmpty(connectionString))
     var dbPass = Environment.GetEnvironmentVariable("POSTGRES_PASSWORD") ?? "supersecret";
     var dbHost = Environment.GetEnvironmentVariable("POSTGRES_HOST") ?? "localhost";
     var dbPort = Environment.GetEnvironmentVariable("POSTGRES_PORT") ?? "5432";
+
     connectionString = $"Host={dbHost};Port={dbPort};Database={dbName};Username={dbUser};Password={dbPass}";
 }
 
-builder.Services.AddDbContext<AppDbContext>(opt => opt.UseNpgsql(connectionString));
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseNpgsql(connectionString));
 
-// DI
+// 9. Inyección de Dependencias
 builder.Services.AddScoped<IDriverRepository, DriverRepository>();
 builder.Services.AddScoped<IDriverService, DriverService>();
 builder.Services.AddScoped<ITeamCarRepository, TeamCarRepository>();
@@ -136,14 +148,21 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 
-// Swagger siempre activo (o solo en Dev, según prefieras)
-app.UseSwagger();
-app.UseSwaggerUI();
+// --- Pipeline ---
+
+// Activar Swagger Visual
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseCors("AllowAll");
 app.UseRateLimiter();
+
 app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

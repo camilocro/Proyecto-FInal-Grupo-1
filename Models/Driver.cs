@@ -15,6 +15,7 @@ namespace Proyecto_FInal_Grupo_1.Models
 
         public Guid? TeamCarId { get; set; }
         public Guid? SponsorId { get; set; }
+
         public TeamCar? TeamCar { get; set; }
         public Sponsor? Sponsor { get; set; }
     }

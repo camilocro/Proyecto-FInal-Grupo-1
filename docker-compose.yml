@@ -1,32 +1,35 @@
 ﻿services:
   api:
-    image: proyecto-final-grupo-1-api
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
+    container_name: proyecto_api
     ports:
       - "8080:8080"
+    env_file:
+      - .env
     environment:
-      - POSTGRES_HOST=db
-      - POSTGRES_DB=formula1db
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=supersecret
-      - JWT_KEY=EstaEsUnaClaveSuperSecretaYLoSuficientementeLargaParaQueFuncioneElJWT123!
-      - JWT_ISSUER=FormulaOneApi
-      - JWT_AUDIENCE=FormulaOneClient
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DATABASE_URL=Host=db;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+      - Jwt__ExpiresMinutes=60
+      - Jwt__RefreshDays=14
     depends_on:
-      - db
+      db:
+        condition: service_healthy
 
   db:
-    image: postgres:15
-    environment:
-      - POSTGRES_DB=formula1db
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=supersecret
+    image: postgres:16
+    container_name: proyecto_db
+    restart: unless-stopped
+    env_file:
+      - .env
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
 volumes:
   postgres_data:

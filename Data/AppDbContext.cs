@@ -19,24 +19,26 @@ namespace Proyecto_FInal_Grupo_1.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relación 1:1 (Driver <-> TeamCar)
+            // Configuración de Relación 1:1 (Driver - TeamCar)
+            // Un Driver tiene un TeamCar, y un TeamCar tiene un Driver.
             modelBuilder.Entity<Driver>()
                 .HasOne(d => d.TeamCar)
-                .WithOne(c => c.Driver)
+                .WithOne(tc => tc.Driver)
                 .HasForeignKey<Driver>(d => d.TeamCarId)
-                .IsRequired(false); // Un auto puede no tener piloto asignado aun
+                .IsRequired(false) // La relación es opcional al crear
+                .OnDelete(DeleteBehavior.Restrict); // Evitar borrado en cascada peligroso
 
-            // Relación 1:N (Sponsor -> Drivers)
+            // Configuración de Relación 1:N (Sponsor - Drivers)
             modelBuilder.Entity<Driver>()
                 .HasOne(d => d.Sponsor)
                 .WithMany(s => s.Drivers)
-                .HasForeignKey(d => d.SponsorId);
+                .HasForeignKey(d => d.SponsorId)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            // Relación N:M (CarSponsor)
-            // No requiere configuración extra si las FKs están bien, pero aseguramos:
+            // Configuración de Relación N:M (TeamCar - Sponsors mediante CarSponsor)
             modelBuilder.Entity<CarSponsor>()
                 .HasOne(cs => cs.TeamCar)
-                .WithMany(c => c.CarSponsors)
+                .WithMany(tc => tc.CarSponsors)
                 .HasForeignKey(cs => cs.TeamCarId);
 
             modelBuilder.Entity<CarSponsor>()

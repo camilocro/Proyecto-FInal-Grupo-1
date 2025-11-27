@@ -21,7 +21,7 @@ namespace Proyecto_FInal_Grupo_1.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            _logger.LogInformation("Getting all drivers");
+            _logger.LogInformation("Consultando todos los pilotos.");
             return Ok(await _service.GetAll());
         }
 
@@ -29,12 +29,13 @@ namespace Proyecto_FInal_Grupo_1.Controllers
         [Authorize]
         public async Task<IActionResult> GetOne(Guid id)
         {
-            var driver = await _service.GetOne(id);
-            if (driver == null)
+            var item = await _service.GetOne(id);
+            if (item == null)
             {
+                _logger.LogWarning($"Piloto {id} no encontrado.");
                 return NotFound();
             }
-            return Ok(driver);
+            return Ok(item);
         }
 
         [HttpPost]
@@ -44,13 +45,14 @@ namespace Proyecto_FInal_Grupo_1.Controllers
             if (!ModelState.IsValid) return BadRequest(ModelState);
             try
             {
-                var driver = await _service.Create(dto);
-                return CreatedAtAction(nameof(GetOne), new { id = driver.Id }, driver);
+                var item = await _service.Create(dto);
+                _logger.LogInformation($"Piloto creado: {item.FirstName} {item.LastName}");
+                return CreatedAtAction(nameof(GetOne), new { id = item.Id }, item);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error creating driver");
-                return StatusCode(500, "Internal Server Error");
+                _logger.LogError(ex, "Error creando piloto");
+                return StatusCode(500, "Error interno del servidor: " + ex.Message);
             }
         }
 
@@ -61,12 +63,16 @@ namespace Proyecto_FInal_Grupo_1.Controllers
             if (!ModelState.IsValid) return BadRequest(ModelState);
             try
             {
-                var driver = await _service.Update(dto, id);
-                return Ok(driver);
+                var item = await _service.Update(dto, id);
+                _logger.LogInformation($"Piloto actualizado: {id}");
+                return Ok(item);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                _logger.LogError(ex, $"Error actualizando piloto {id}");
+                if (ex.Message.Contains("not found")) return NotFound(ex.Message);
+
+                return StatusCode(500, "Error interno del servidor");
             }
         }
 
@@ -74,8 +80,17 @@ namespace Proyecto_FInal_Grupo_1.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            await _service.Delete(id);
-            return NoContent();
+            try
+            {
+                await _service.Delete(id);
+                _logger.LogInformation($"Piloto eliminado: {id}");
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error eliminando piloto {id}");
+                return StatusCode(500, "Error interno del servidor");
+            }
         }
     }
 }
