@@ -78,68 +78,75 @@ Authorization: Bearer <tu_token_jwt_aqui>
 
 -----
 
-## 🌐 5. Endpoints + Ejemplos
+## 🌐 5. Documentación Completa de Endpoints
 
-### 🔐 Auth (Público)
+A continuación se detalla la lista completa de rutas disponibles en la API.
 
-| Método | Endpoint | Descripción |
-| :--- | :--- | :--- |
-| `POST` | `/api/v1/Auth/register` | Registrar un nuevo usuario. |
-| `POST` | `/api/v1/Auth/login` | Iniciar sesión y obtener token. |
-| `POST` | `/api/v1/Auth/refresh` | Renovar token vencido. |
+### 🔐 Auth (Autenticación)
 
-**Ejemplo Login (Request):**
+Endpoints públicos para la gestión de acceso de usuarios.
 
-```json
-{
-  "email": "admin@f1.com",
-  "password": "Password123!"
-}
-```
+| Método | Endpoint | Permiso | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| `POST` | `/api/Auth/register` | Público | Registrar un nuevo usuario. | `{ "username": "...", "email": "...", "password": "..." }` |
+| `POST` | `/api/Auth/login` | Público | Iniciar sesión y obtener tokens. | `{ "email": "...", "password": "..." }` |
+| `POST` | `/api/Auth/refresh` | Público | Renovar el Access Token usando el Refresh Token. | `{ "refreshToken": "..." }` |
 
-### 🏎️ TeamCar (Requiere Auth)
+### 🏎️ TeamCar (Monoplazas)
+
+Gestión de los autos de la escudería.
+
+| Método | Endpoint | Permiso | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| `GET` | `/api/TeamCar` | Público | Listar todos los autos. | N/A |
+| `GET` | `/api/TeamCar/{id}` | Auth (User/Admin) | Obtener detalle de un auto específico. | N/A |
+| `POST` | `/api/TeamCar` | **Admin** | Crear un nuevo auto. | `{ "model": "...", "teamName": "...", "engine": "...", "year": 2024 }` |
+| `PUT` | `/api/TeamCar/{id}` | **Admin** | Actualizar información de un auto. | `{ "model": "...", "teamName": "...", "engine": "...", "year": 2024 }` |
+| `DELETE` | `/api/TeamCar/{id}` | **Admin** | Eliminar un auto del sistema. | N/A |
+
+### 👤 Driver (Pilotos)
+
+Gestión de los conductores del equipo.
+
+| Método | Endpoint | Permiso | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| `GET` | `/api/Driver` | Público | Listar todos los pilotos. | N/A |
+| `GET` | `/api/Driver/{id}` | Auth (User/Admin) | Consultar un piloto por ID. | N/A |
+| `POST` | `/api/Driver` | **Admin** | Registrar un nuevo piloto. | `{ "firstName": "...", "lastName": "...", "number": 14, "nationality": "...", "teamCarId": "GUID", "sponsorId": "GUID" }` |
+| `PUT` | `/api/Driver/{id}` | **Admin** | Actualizar datos de un piloto. | `{ "firstName": "...", "lastName": "...", "number": 14, "nationality": "...", "teamCarId": "GUID", "sponsorId": "GUID" }` |
+| `DELETE` | `/api/Driver/{id}` | **Admin** | Eliminar un piloto. | N/A |
+
+### 💰 Sponsor (Patrocinadores)
+
+Gestión de las marcas que patrocinan.
+
+| Método | Endpoint | Permiso | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| `GET` | `/api/Sponsor` | Público | Listar todos los patrocinadores. | N/A |
+| `GET` | `/api/Sponsor/{id}` | Auth (User/Admin) | Ver detalle de un patrocinador. | N/A |
+| `POST` | `/api/Sponsor` | **Admin** | Crear un patrocinador. | `{ "name": "...", "industry": "...", "amount": 1000000 }` |
+| `PUT` | `/api/Sponsor/{id}` | **Admin** | Actualizar un patrocinador. | `{ "name": "...", "industry": "...", "amount": 1000000 }` |
+| `DELETE` | `/api/Sponsor/{id}` | **Admin** | Eliminar un patrocinador. | N/A |
+
+### 🏷️ CarSponsor (Relación Auto-Sponsor)
+
+Tabla intermedia para asignar múltiples pegatinas de sponsors a los autos.
+
+| Método | Endpoint | Permiso | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| `GET` | `/api/CarSponsor` | Público | Ver todas las asignaciones. | N/A |
+| `GET` | `/api/CarSponsor/{id}` | Auth (User/Admin) | Ver una asignación específica. | N/A |
+| `POST` | `/api/CarSponsor` | **Admin** | Asignar un sponsor a un auto. | `{ "teamCarId": "GUID", "sponsorId": "GUID", "location": "Alerón Trasero" }` |
+| `PUT` | `/api/CarSponsor/{id}` | **Admin** | Modificar la ubicación del logo. | `{ "location": "Pontones laterales" }` |
+| `DELETE` | `/api/CarSponsor/{id}` | **Admin** | Eliminar la asignación. | N/A |
+
+### ☁️ System
+
+Endpoints de utilidad del sistema.
 
 | Método | Endpoint | Permiso | Descripción |
 | :--- | :--- | :--- | :--- |
-| `GET` | `/api/TeamCar` | Público/Auth | Listar todos los autos. |
-| `GET` | `/api/TeamCar/{id}` | Auth | Obtener detalle de un auto. |
-| `POST` | `/api/TeamCar` | **Admin** | Crear un nuevo auto. |
-| `PUT` | `/api/TeamCar/{id}` | **Admin** | Actualizar auto. |
-| `DELETE` | `/api/TeamCar/{id}` | **Admin** | Eliminar auto. |
-
-**Ejemplo Create Car (Request):**
-
-```json
-{
-  "model": "AMR24",
-  "teamName": "Aston Martin",
-  "engine": "Mercedes",
-  "year": 2024
-}
-```
-
-### 👤 Driver (Requiere Auth)
-
-| Método | Endpoint | Permiso | Descripción |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/Driver` | Público/Auth | Listar pilotos. |
-| `POST` | `/api/Driver` | **Admin** | Registrar piloto (requiere IDs de Auto y Sponsor). |
-
-### 🏷️ CarSponsor (Relación N:M)
-
-| Método | Endpoint | Permiso | Descripción |
-| :--- | :--- | :--- | :--- |
-| `POST` | `/api/CarSponsor` | **Admin** | Asignar un patrocinador a un auto. |
-
-**Ejemplo Request:**
-
-```json
-{
-  "teamCarId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "sponsorId": "8a225f64-1234-4562-b3fc-2c963f66afa6",
-  "location": "Alerón Trasero"
-}
-```
+| `GET` | `/WeatherForecast` | Público | Endpoint de prueba para verificar que la API responde. |
 
 -----
 
